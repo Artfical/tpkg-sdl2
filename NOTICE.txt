@@ -1,0 +1,4 @@
+SDL 2.30.9 for tOS
+===================
+
+Built from SDL2-2.30.9.tar.gz (beside this package), unmodified: ./configure --prefix=/system/pkg/sdl2 with the X11 video driver (loaded from the xorg package's libX11/libXext at run time, RUNPATH /system/pkg/xorg/lib), no OpenGL, Wayland, KMS, PulseAudio, ALSA or udev (audio drivers: dummy and disk only). Headers in include/SDL2, libraries in lib (shared and static), sdl2-config in bin. hello_sdl.c is a small test: gcc hello_sdl.c $(sdl2-config --cflags --libs). License: zlib (LICENSE).
