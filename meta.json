@@ -1,0 +1,25 @@
+{
+ "name": "sdl2",
+ "version": "2.30.9-2",
+ "license": "Zlib",
+ "homepage": "https://libsdl.org",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "SDL2-2.30.9.tar.gz"
+ ],
+ "desc": "SDL 2.30.9: windows, input and 2D drawing for games and programs (X11 backend: start the X server with tos-x first); headers and libraries to build against it",
+ "file": "sdl2-2.30.9-2.tpkg",
+ "size": 2908674,
+ "sha256": "dc9afeba166fd6b93791122958afc10284a013d323e8eb4654c9101dcd16039d",
+ "unpacked": 10143624,
+ "min_build": 618,
+ "depends": [
+  "xorg"
+ ],
+ "commands": {
+  "sdl2-config": "bin/sdl2-config"
+ }
+}
